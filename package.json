@@ -1,0 +1,32 @@
+{
+  "name": "@watergis/sprite-creator",
+  "version": "0.1.0",
+  "description": "This module is to generate sprite files from icon images.",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watergis/sprite-creator.git"
+  },
+  "author": "Jin IGARASHI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watergis/sprite-creator/issues"
+  },
+  "homepage": "https://github.com/watergis/sprite-creator#readme",
+  "dependencies": {
+    "@mapbox/spritezero": "^7.0.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2"
+  }
+}
