@@ -1,4 +1,5 @@
 # sprite-creator
+![](https://github.com/watergis/sprite-creator/workflows/Node.js%20Package/badge.svg)
 ![GitHub](https://img.shields.io/github/license/watergis/sprite-creator)
 
 This module is to generate sprite files from icon images.
